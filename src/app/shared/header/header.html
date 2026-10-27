@@ -1,1 +1,23 @@
-<p>header works!</p>
+<a class="skip" routerLink="/" fragment="main-content">Skip to content</a>
+<header class="container">
+  <a class="brand" href="/" aria-label="Melora Living home"
+    ><span class="brand-icon">❧</span
+    ><span>melora<span class="brand-sub">L I V I N G</span></span></a
+  >
+  <button
+    class="menu"
+    (click)="menuOpen = !menuOpen"
+    [attr.aria-expanded]="menuOpen"
+    aria-controls="main-nav"
+  >
+    {{ menuOpen ? 'Close ×' : 'Menu ☰' }}
+  </button>
+  <nav id="main-nav" [class.open]="menuOpen" aria-label="Main navigation">
+    <a routerLink="/" fragment="our-story" (click)="menuOpen = false">Our story</a
+    ><a routerLink="/" fragment="living" (click)="menuOpen = false">Life at Melora</a
+    ><a routerLink="/" fragment="care" (click)="menuOpen = false">Care & wellbeing</a
+    ><a class="button" routerLink="/" fragment="visit" (click)="menuOpen = false"
+      >Arrange a Visit <span>↗</span></a
+    >
+  </nav>
+</header>
