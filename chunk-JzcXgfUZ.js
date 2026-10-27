@@ -1,0 +1,1 @@
+import{i as Ff,l as jf,n as AE,o as Sv}from"./main-A66IMOZQ.js";var r=class s{static ɵfac=function(e){return new(e||s)};static ɵcmp=Sv({type:s,selectors:[[`app-services`]],decls:2,vars:0,template:function(e,o){e&1&&(Ff(0,`p`),AE(1,`services works!`),jf())},encapsulation:2})};export{r as Services};

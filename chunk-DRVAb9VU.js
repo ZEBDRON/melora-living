@@ -1,0 +1,1 @@
+import{i as Ff,l as jf,n as AE,o as Sv}from"./main-A66IMOZQ.js";var o=class a{static ɵfac=function(e){return new(e||a)};static ɵcmp=Sv({type:a,selectors:[[`app-gallery`]],decls:2,vars:0,template:function(e,i){e&1&&(Ff(0,`p`),AE(1,`gallery works!`),jf())},encapsulation:2})};export{o as Gallery};

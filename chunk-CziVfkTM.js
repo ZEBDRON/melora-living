@@ -1,0 +1,1 @@
+import{i as Ff,l as jf,n as AE,o as Sv}from"./main-A66IMOZQ.js";var s=class e{static ɵfac=function(t){return new(t||e)};static ɵcmp=Sv({type:e,selectors:[[`app-contact`]],decls:2,vars:0,template:function(t,p){t&1&&(Ff(0,`p`),AE(1,`contact works!`),jf())},encapsulation:2})};export{s as Contact};
